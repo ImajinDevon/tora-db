@@ -1,0 +1,8 @@
+[package]
+name = "tora-db"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tora = "0.1.5"
+derive_more = { version = "1.0.0-beta.6", features = ["display", "error"] }
