@@ -1,0 +1,8 @@
+[package]
+name = "tora-db-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tora-db = { path = "../lib" }
+tora = "0.1.5"
